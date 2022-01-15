@@ -1,53 +1,35 @@
--------------------------------------------
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+Fabric repo here https://github.com/MehVahdJukaar/DummyFabric1.16
 
-Note also that the patches are built against "unrenamed" MCP source code (aka
-srgnames) - this means that you will not be able to read them directly against
-normal code.
+Original description:
+This is a small mod that adds exactly one item: a Target Dummy.
 
-Source pack installation information:
+The dummy can be placed in the world, where it'll stand silently, judging your every action. It'll wiggle funny if you hit it, screaming large numbers of damage at you. It can be dressed up to look even more awesome. This will please the dummy, making the numbers smaller.
 
-Standalone source installation
-==============================
+TL;DR: target dummies show damage dealt to them and can be equipped with armor
 
-See the Forge Documentation online for more detailed instructions:
-http://mcforge.readthedocs.io/en/latest/gettingstarted/
+ 
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+Usage:
+Right click on a block with a target dummy to place it. He can be rotated 16 different directions depending on the way you face when you place it, similar to an armor stand.
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: "gradlew genEclipseRuns" (./gradlew genEclipseRuns if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run "gradlew eclipse" to generate the project.
-(Current Issue)
-4. Open Project > Run/Debug Settings > Edit runClient and runServer > Environment
-5. Edit MOD_CLASSES to show [modid]%%[Path]; 2 times rather then the generated 4.
+You can start dressing the little dude with all kind of armors and equipment. Just right click him with the desired item. To unequip a certain armor piece just click on his corresponding body part.
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: "gradlew genIntellijRuns" (./gradlew genIntellijRuns if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
+Got tired of testing your dps? You can remove the dummy just by shift left clicking him with an empty hand!
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can run "gradlew --refresh-dependencies" to refresh the local cache. "gradlew clean" to reset everything {this does not affect your code} and then start the processs again.
+ 
 
-Should it still not work, 
-Refer to #ForgeGradle on EsperNet for more information about the gradle environment.
-or the Forge Project Discord discord.gg/UvedJ9m
+Additional features:
+Have you ever wanted to test your new smite sword but couldn't because there are no skellies around? Well fear no more, you can now equip the dummy with and undead mob head and it will change its type accordingly!
+Similarly you can equip him with a turtle helmet to make it a water mob or with a pillager banner to turn it into a pillager mob. Note that he still won't be attacked by other mobs (maybe it a future update), he'll just take more damage from appropriate enchantment and so on.
 
-Forge source installation
-=========================
-MinecraftForge ships with this code and installs it as part of the forge
-installation process, no further action is required on your part.
+ 
 
-LexManos' Install Video
-=======================
-https://www.youtube.com/watch?v=8VEdtQLuLO0&feature=youtu.be
+ Need automating? You can dispense the dummy using a dispenser and you can break him by removing the block under his feet.
+ 
 
-For more details update more often refer to the Forge Forums:
-http://www.minecraftforge.net/forum/index.php/topic,14048.0.html
+ Don't like how much he swings or the new skin? Well you can easily change that by using the mod config file. You can additionally choose between static and dynamic dps messages and you can make the numbers show hearths instead of damage.
+Try shearing the dummies to get a different skin!
+
+ 
+
+You can also equip them with a pumpkin or jack o lantern and they'll act as scarecrows, scaring nearby animals
