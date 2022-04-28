@@ -1,0 +1,6 @@
+{
+  "item.dummmmmmy.target_dummy_placer": "Манекен",
+  "entity.dummmmmmy.dummy_number": "Количество манекенов",
+  "entity.dummmmmmy.target_dummy": "Манекен",
+  "message.dummmmmmy.dps": "%s: %s Урона в секунду"
+}
