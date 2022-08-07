@@ -1,0 +1,6 @@
+{
+  "item.dummmmmmy.target_dummy_placer": "测试假人",
+  "entity.dummmmmmy.dummy_number": "假人收到的伤害",
+  "entity.dummmmmmy.target_dummy": "测试假人",
+  "message.dummmmmmy.dps": "测试假人: %s DPS"
+}
